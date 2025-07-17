@@ -75,8 +75,11 @@ const produkUnggulanFormatted = produkUnggulan.map(produk => ({
                   <h3 class="text-xl font-semibold text-slate-900 mb-2">
                       ${project.title}
                   </h3>
-                  <p class="text-sm text-slate-500 mb-4">
+                  <p class="text-sm text-slate-500 mb-2">
                       by ${project.name}
+                      <div class="text-sm text-slate-500 mb-1">NIM ${project.nim}</div>
+                  </p>
+                  <p class="text-sm text-slate-500 mb-4">
                   </p>
                   <p class="text-slate-700 leading-relaxed">
                       ${project.description}
